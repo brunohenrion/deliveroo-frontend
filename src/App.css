@@ -8,7 +8,7 @@ header img {
   height: 45px;
 }
 
-section {
+.descrip {
   padding: 30px 130px 30px 150px;
 }
 
@@ -46,5 +46,92 @@ section p {
 }
 .menu {
   background-color: #f2f5f5;
-  height: 300px;
+  padding: 22px 130px 30px 150px;
+}
+
+.category {
+  font-family: system-ui, sans-serif;
+  font-size: 24px;
+  margin-bottom: 26px;
+  color: #2e3333;
+}
+
+.imagesgroup {
+  margin-bottom: 52px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.images {
+  padding: 19px 15px;
+  width: 403px;
+  height: 132px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+}
+
+.desc {
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+  color: #808484;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title3 {
+  font-family: system-ui, sans-serif;
+  font-size: 18px;
+  color: #2f3434;
+  width: 184px;
+  line-height: 20.6px;
+}
+
+.title3bis {
+  font-family: system-ui, sans-serif;
+  font-size: 18px;
+  color: #2f3434;
+  width: 385px;
+  line-height: 20.6px;
+}
+.spanou {
+  margin-top: -30px;
+  width: 208px;
+}
+.spanoubis {
+  margin-top: -30px;
+  width: 385px;
+}
+
+h4 {
+  font-family: system-ui, sans-serif;
+  font-size: 17px;
+  color: #808484;
+  margin-top: -15px;
+}
+
+.images img {
+  object-fit: cover;
+}
+.pic {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+.prix {
+  display: flex;
+}
+.prixbis {
+  margin-top: -20px;
+}
+
+.popu {
+  margin-top: -17px;
+  margin-left: -20px;
+  width: 110px;
+  height: 20px;
+}
+
+.hidden {
+  display: none;
 }
