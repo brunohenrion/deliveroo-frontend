@@ -58,6 +58,7 @@ function App() {
             return (
               <section key={index}>
                 <div className="category">{elem.name}</div>
+
                 <div className="imagesgroup">
                   {elem.meals.map((elem, index) => {
                     return (
@@ -66,13 +67,16 @@ function App() {
                           <h3 className={elem.picture ? "title3" : "title3bis"}>
                             {elem.title}
                           </h3>
+
                           <span
                             className={elem.picture ? "spanou" : "spanoubis"}
                           >
-                            {elem.description.slice(0, 70)}
+                            {elem.description.slice(0, 60)}
                           </span>
+
                           <div className={elem.picture ? "prix" : "prixbis"}>
-                            <h4>{elem.price} €</h4>{" "}
+                            <h4>{elem.price} €</h4>
+
                             <div className={elem.popular ? "" : "hidden"}>
                               <img className="popu" src={popu} alt="" />
                             </div>

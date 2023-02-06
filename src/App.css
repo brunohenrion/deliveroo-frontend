@@ -120,6 +120,7 @@ h4 {
 }
 .prix {
   display: flex;
+  margin-top: 2px;
 }
 .prixbis {
   margin-top: -20px;
